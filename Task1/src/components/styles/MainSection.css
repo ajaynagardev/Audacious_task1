@@ -1,0 +1,122 @@
+.main-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stats-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #374151;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827;
+}
+
+.recent-activity {
+    margin-bottom: 20px;
+}
+
+.recent-activity h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #374151;
+}
+
+.recent-activity ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activity li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+    color: #6b7280;
+}
+
+.recent-activity li svg {
+    margin-right: 10px;
+    color: #4b5563;
+}
+
+.tasks-overview {
+    margin-top: 20px;
+}
+
+.tasks-overview h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #374151;
+}
+
+  
+  @media (max-width: 768px) {
+    .stats-cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      margin: 10px 0;
+    }
+  
+    .tasks-overview {
+      margin-top: 10px;
+    }
+  }
+  
+  .recent-activity ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-activity li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+    color: #6b7280;
+  }
+  
+  .recent-activity li svg {
+    margin-right: 10px;
+    color: #4b5563;
+  }
+  
+  @media (max-width: 768px) {
+    .recent-activity li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .tasks-overview {
+      margin-top: 20px;
+    }
+    .main-section {
+        padding: 20px;
+        margin-left: 50px;
+    }
+    
+  }
+  

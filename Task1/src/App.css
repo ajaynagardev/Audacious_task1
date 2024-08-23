@@ -1,0 +1,17 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+}
